@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+
+	<title>Sunrise</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html">attractiveness</a>
+		</div>
+
+		<div class="head-nav">
+			<span class="menu"> </span>
+			<ul class="cl-effect-1">
+				<li><a href="index.html">Main</a></li>
+				<li><a href="blog.html">Articles</a></li>
+				<li><a href="contact.html">Contacts</a></li>
+				<li><a href="policy.html">Privacy policy</a></li>
+				<li><a href="terms.html">Terms and conditions</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<!-- script-for-nav -->
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".head-nav ul" ).slideToggle(300, function() {
+					// Animation complete.
+				});
+			});
+		</script>
+		<!-- script-for-nav -->
+
+
+
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- header -->
+<!-- Blog -->
+<div class="container">
+	<div class="blog">
+
+		<div class="blog-content">
+			<div class="blog-content-left">
+				<div class="blog-articals">
+
+					<div class="blog-artical">
+
+						<div class="blog-artical-info">
+							<div class="blog-artical-info-img">
+								<a href="-%&link&%-"><img src="./assets/images/lex-guerra-dtgc-vp0fhu-unsplash.jpg" title="post-name"></a>
+							</div>
+							<div class="blog-artical-info-head">
+								<h2><a href="-%&link&%-">What is important for memory loss?</a></h2>
+
+
+							</div>
+							<div class="blog-artical-info-text">
+								<p><strong>What is important for memory loss?</strong> Memory loss, as we know, is one of the most common consequences of constant stress and neglect.We often do not pay attention to it, as it is much more important that something is done about this quickly. But stress, unfortunately, is just as bad as it was a long time ago.Stress is caused by the body's inability to cope with stress. In the case of depression and stress, damage the nervous system, which is why in the case of bulging, it often happens.is caused by the violation of sodium balance. When there is a violation of this balance, there is an excess of fluid in the body. Because the body has difficulty removing sodium from the body, it cannot synthesize enough sodium. As a result, memory loss occurs.In addition, due to the lack of electrolytes, the brain cannot function properly. As a result, fluid retention continues, which is also a reason for additional stress.There are several types of stress, but all of them have one thing in common - they are unavoidable. They are not something bad, but something that has to be dealt with.Fortunately, there are many solutions that help fight stress, and not only for the sake of "balance" - because this is not the case. It is important that they are present in the life of the person. Especially important is a daily routine, a set of rules that help maintain a normal mood, prevent the occurrence of stress and other problems. What is important for memory loss prevention?There is a Rule for Mature Skin.It is worth remembering that stress and pregnancy in general are not for nothing bear. We shouldn't forget that during times of stress, the skin can deteriorate. You should take care of your skin very carefully. If you are pregnant, it is recommended to take a break and moisturize it more often. It is necessary to use special care for the skin of the face and body. It is necessary to use sunscreen cosmetics. Before going outside, it is recommended to moisturize areas with a high humidity. The best natural moisturizer is tea tree essential oil. It improves the complexion, hides the imperfections of the skin. Also, during the period of taking a break, drink a decoction of turmeric. If you are in a rush and forget to use a hand cream, allow the composition of a homemade facial cream to be formed. It is very useful. a tool that will provide effective results. It is recommended to use natural oils. It is not only rich in vitamin E, but also zinc, Basil, Dr. Bronner's powder, cocoa butter, lollipops, grape seed oil and lots more other useful oils.5 reasons to use saffron oil for skin care.It is important to monitor the condition of the skin. It is necessary to take care of it, because it is aging</p>
+							</div>
+
+						</div>
+
+						<div class="clearfix"> </div>
+					</div>
+
+				</div>
+				<!--//End-blog-pagenate-->
+			</div>
+
+			<div class="clearfix"> </div>
+
+		</div>
+	</div>
+	<!-- /Blog -->
+
+	<div class="footer">
+
+
+		<div class="clearfix"> </div>
+		<div class="copyright">
+			<p> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+				All rights reserved</p>
+		</div>
+	</div>
+</div>
+<div class='cookie-banner'>
+	<p>
+		The site uses cookies. They allow us to recognize you and get information about your user experience.By continuing to browse the site, I agree to the use of cookies by the site owner in accordance with  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookie policy</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>

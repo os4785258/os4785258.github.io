@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+
+	<title>sophistication</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html">love</a>
+		</div>
+
+		<div class="head-nav">
+			<span class="menu"> </span>
+			<ul class="cl-effect-1">
+				<li><a href="index.html">Main</a></li>
+				<li><a href="blog.html">Articles</a></li>
+				<li><a href="contact.html">Contacts</a></li>
+				<li><a href="policy.html">Privacy policy</a></li>
+				<li><a href="terms.html">Terms and conditions</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<!-- script-for-nav -->
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".head-nav ul" ).slideToggle(300, function() {
+					// Animation complete.
+				});
+			});
+		</script>
+		<!-- script-for-nav -->
+
+
+
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- header -->
+<!-- Blog -->
+<div class="container">
+	<div class="blog">
+
+		<div class="blog-content">
+			<div class="blog-content-left">
+				<div class="blog-articals">
+
+					<div class="blog-artical">
+
+						<div class="blog-artical-info">
+							<div class="blog-artical-info-img">
+								<a href="-%&link&%-"><img src="./assets/images/luke-chesser-rcowmc8qf8a-unsplash.jpg" title="post-name"></a>
+							</div>
+							<div class="blog-artical-info-head">
+								<h2><a href="-%&link&%-">6 reasons to replace running with skipping rope</a></h2>
+
+
+							</div>
+							<div class="blog-artical-info-text">
+								<p><strong>6 reasons to replace running with skipping rope</strong> You probably know the routine: at the end of the workout, I'll lift my limp body off the ground, stretch it, stretch it again. Or, if you're a little more active, I'll just run alongside you, lowering myself at the same time. It's not even necessary to get on the treadmill in order to do this. Running can be a great Jogging simulator. This is just a typical workout, but it will also provide you with a ton of benefits.1. For some reason, we tend to avoid working out when we're not in a state of fitness. But when we're not in fitness, we don't have time to work out, and therefore do not spend the necessary time.2. We often lose out on important work due to lack of time. This is especially true for people who are used to work a lot. It's just not time.3. When you run, you can almost feel the force of the movement. It's very important for the body to have this "fuel" source.4. You won't believe it, but running actually helps you lose weight. This is due to the fact that when you run, the excess weight that remains on the body is immediately converted into energy.In addition, a good and effective workout routine is:) for 1 hour. So, 1 hour is run, followed by 5 minutes of yoga or Pilates. And if you want to, of course, repeat it many, many times.5. Run, walk, swim. We can all agree that this is a very good way to lose weight.6. There are a lot of myths about running. They tell us that:) you can and shouldn't join in, but this is not the case. It's just that they are.Myth 1. You need to get up abruptly to avoid hitting your head. head. This is another myth. Most often, injuries do not occur due to a fall. On the contrary, injuries are the result of slips and falls while running. Our head is not injured, and the brain does not respond as quickly as the body.2. for some unknown reason, people just don't want to run. They are more likely to do yoga or Pilates, focus instead on the breath.3. There are athletes who, for some reason, find it difficult to train. This too is not true. If you're not an athlete, don't join us. We are here to help you lose weight or stay on the couch, because we are. We understand that this is very difficult. the case.4. If you decide to run, don't get down on yourself. Don't get nervous. Don't get nervous that you'll get hurt. Just do it. Don't worry about the hills. Just move forward.5. When you run,</p>
+							</div>
+
+						</div>
+
+						<div class="clearfix"> </div>
+					</div>
+
+				</div>
+				<!--//End-blog-pagenate-->
+			</div>
+
+			<div class="clearfix"> </div>
+
+		</div>
+	</div>
+	<!-- /Blog -->
+
+	<div class="footer">
+
+
+		<div class="clearfix"> </div>
+		<div class="copyright">
+			<p> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+				All rights reserved</p>
+		</div>
+	</div>
+</div>
+<div class='cookie-banner'>
+	<p>
+		The site uses cookies. They allow us to recognize you and get information about your user experience.By continuing to browse the site, I agree to the use of cookies by the site owner in accordance with  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookie policy</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>

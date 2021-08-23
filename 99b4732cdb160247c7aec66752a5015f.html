@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+
+	<title>charm</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script>
+		$(function () {
+			$("#slider").responsiveSlides({
+				auto: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				pager: true,
+			});
+		});
+
+	</script>
+
+</head>
+<body>
+<!-- header -->
+<div class="header">
+	<div class="container">
+		<div class="logo">
+			<a href="index.html">attraction</a>
+		</div>
+
+		<div class="head-nav">
+			<span class="menu"> </span>
+			<ul class="cl-effect-1">
+				<li><a href="index.html">Main</a></li>
+				<li><a href="blog.html">Articles</a></li>
+				<li><a href="contact.html">Contacts</a></li>
+				<li><a href="policy.html">Privacy policy</a></li>
+				<li><a href="terms.html">Terms and conditions</a></li>
+				<div class="clearfix"></div>
+			</ul>
+		</div>
+		<!-- script-for-nav -->
+		<script>
+			$( "span.menu" ).click(function() {
+				$( ".head-nav ul" ).slideToggle(300, function() {
+					// Animation complete.
+				});
+			});
+		</script>
+		<!-- script-for-nav -->
+
+
+
+		<div class="clearfix"> </div>
+	</div>
+</div>
+<!-- header -->
+<!-- Blog -->
+<div class="container">
+	<div class="blog">
+
+		<div class="blog-content">
+			<div class="blog-content-left">
+				<div class="blog-articals">
+
+					<div class="blog-artical">
+
+						<div class="blog-artical-info">
+							<div class="blog-artical-info-img">
+								<a href="-%&link&%-"><img src="./assets/images/boxed-water-is-better-g15g-any-d0-unsplash.jpg" title="post-name"></a>
+							</div>
+							<div class="blog-artical-info-head">
+								<h2><a href="-%&link&%-">Why does a person get better?</a></h2>
+
+
+							</div>
+							<div class="blog-artical-info-text">
+								<p><strong>Why does a person get better?</strong> pictures This is the second question that patients with gastroduosclerosis ask themselves. The first is: "Why does a person get better?", the second: "How can I prevent this?" The first question is usually: "Why does a person get better? - Because medical progress is afoot.The answer to the second question is simple: "Because medical progress is afoot, people try to keep their condition a secret from the doctors and from each other.The desire to keep a secret is understandable. The less you know about a problem, the more you can do it. with a problem, the faster it appears. It is important to know that the desire exists and is maintained. Often the patient does not even know that he wants to remain anonymous.He is ready to tell anyone about any mistake that may have been made during the procedure. Even if it is not a secret, but it is necessary to openly discuss it. For example, a person who has information about the cause of thrombosis and is ready to take part in a study can be a patient of a gastroenterologist.The patient is ready to cooperate fully and in some cases even fully disclose the mistake to researchers. It is also necessary to take into account the patient's age, the duration of illness, the method of delivery of the medicine and the level of resistance. There are many reasons why a person does not know about a problem until it is too late. For example, a person does not have the will to continue. After all, how can a person who has just a headache get better? There are also disadvantages to being the subject of rumors and gossip. First of all, this is a sedative and causes dizziness, so people need to be careful. If you have been diagnosed with gastritis, you need to be careful. If you have been to a gynecologist before, you probably know what I am talking about. There may be a problem with the gallbladder. If this is a problem, you will need to consult a specialist before starting any physical activity, including lifting weights.Readiness for surgery is also important. Before the operation, a person should be healthy and in a position to move. Otherwise a person could get sick and not even know it. This article is for informational purposes only. Please consult your doctor before using this information.If you liked our article, we will be happy if you share it on your social media pages.</p>
+							</div>
+
+						</div>
+
+						<div class="clearfix"> </div>
+					</div>
+
+				</div>
+				<!--//End-blog-pagenate-->
+			</div>
+
+			<div class="clearfix"> </div>
+
+		</div>
+	</div>
+	<!-- /Blog -->
+
+	<div class="footer">
+
+
+		<div class="clearfix"> </div>
+		<div class="copyright">
+			<p> Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+				All rights reserved</p>
+		</div>
+	</div>
+</div>
+<div class='cookie-banner'>
+	<p>
+		The site uses cookies. They allow us to recognize you and get information about your user experience.By continuing to browse the site, I agree to the use of cookies by the site owner in accordance with  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Cookie policy</a>
+	</p>
+	<button class='close-cookie'>&times;</button>
+</div>
+<script>
+	window.onload = function () {
+		$('.close-cookie').click(function () {
+			$('.cookie-banner').fadeOut();
+		})
+	}
+</script>
+<script>
+	let elems = document.querySelectorAll('.server-name');
+	elems.forEach((elem) => {
+		elem.innerHTML = window.location.hostname
+	})
+</script>
+</body>
+</html>
